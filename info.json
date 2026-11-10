@@ -1,0 +1,9 @@
+{
+  "name": "ingame-lua-console",
+  "version": "1.0.0",
+  "title": "InGame LUA Console",
+  "author": "XFawkes",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0"],
+  "description": "In-game Lua console for Factorio 2.1. Write, syntax-preview, validate, save and execute Lua scripts without leaving the game. Features a script library with search and icons, import/export as JSON, error line highlighting with copyable messages, optional Ctrl+Enter hotkey execute, minimize mode, and localizations (EN, DE, FR, ES, PT-BR, RU, UK, PL, ZH-CN, JA, KO, CS, IT). Execute is admin-only (similar to /c). Open with Ctrl+Shift+L, the top-left mod-gui button, or /luaconsole."
+}
