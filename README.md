@@ -1,6 +1,8 @@
-![InGame LUA Console](graphics/logo.png)
+![InGame LUA Console](https://raw.githubusercontent.com/patryk-sredzinski/InGame-LUA-Console/main/graphics/logo.png)
 
 Write, preview, validate, save & execute Lua — without leaving Factorio
+
+**GitHub:** https://github.com/patryk-sredzinski/InGame-LUA-Console
 
 ## Features
 
@@ -12,8 +14,9 @@ Write, preview, validate, save & execute Lua — without leaving Factorio
 
 ## Screenshots
 
-![Full console](graphics/console-big.png)  
-![Compact view](graphics/console-small.png)![Error dialog](graphics/error.png)
+![Full console](https://raw.githubusercontent.com/patryk-sredzinski/InGame-LUA-Console/main/graphics/console-big.png)  
+![Compact view](https://raw.githubusercontent.com/patryk-sredzinski/InGame-LUA-Console/main/graphics/console-small.png)  
+![Error dialog](https://raw.githubusercontent.com/patryk-sredzinski/InGame-LUA-Console/main/graphics/error.png)
 
 ## Controls
 

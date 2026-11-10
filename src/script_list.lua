@@ -34,6 +34,7 @@ function M.rebuild(player)
       row.style.vertical_align = "center"
       row.style.horizontal_spacing = C.PAD
       row.style.padding = 0
+      row.style.horizontally_stretchable = true
 
       local icon = H.add(row, {
         type = "sprite-button", name = C.LOAD_ICON, style = "tool_button",
@@ -41,13 +42,18 @@ function M.rebuild(player)
       })
       H.style_btn(icon, C.BTN_H)
 
+      -- Fill remaining width so X lines up with search / New right edge.
+      local content_w = C.SIDE_W - C.PAD * 2
+      local title_w = content_w - C.BTN_H - C.PAD - C.PAD - C.BTN_H
+
       local selected = st.current_id == entry.id
       local title = H.add(row, {
         type = "button", name = C.LOAD, style = selected and "confirm_button" or "button",
         caption = entry.title, tooltip = entry.title, tags = { id = entry.id },
       })
-      H.style_btn(title, 150)
+      H.style_btn(title, title_w)
       title.style.horizontal_align = "left"
+      title.style.horizontally_stretchable = true
 
       local del = H.add(row, {
         type = "button", name = C.DELETE, style = "red_button",
